@@ -1,6 +1,7 @@
 name: Clang scan-build Static Analyzer Build
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
